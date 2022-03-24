@@ -1,1 +1,3 @@
-![](./light.png#gh-light-mode-only)![](./dark.png#gh-dark-mode-only)
+<div align="center">
+    <img src="./nametag.svg" alt="name tag">
+</div>
