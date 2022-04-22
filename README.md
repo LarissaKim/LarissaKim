@@ -10,7 +10,7 @@ class About extends Me {
       frameworks: ['Next.js', 'TailwindCSS', 'styled-components'],
       languages: ['Javascript', 'Solidity'],
       libraries: ['React', 'Ethers.js'],
-      tools: ['Figma'],
+      tools: ['Figma', 'Hardhat'],
     };
   }
 
