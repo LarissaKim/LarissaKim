@@ -23,28 +23,18 @@ class About extends Me {
   }
 
   sayHello(language) {
-    let greeting;
-
     switch (language) {
       case 'Spanish':
-        greeting = 'Habilidad de conversación en español cargada con éxito\n¡Hola mundo!';
-        break;
+        return 'Habilidad de conversación en español cargada con éxito\n¡Hola mundo!';
       case 'French':
-        greeting = 'Compétence de conversation en français chargé avec succès\nBonjour le monde!';
-        break;
+        return 'Compétence de conversation en français chargé avec succès\nBonjour le monde!';
       case 'Japanese':
-        greeting =
-          '漢字のダウンロード中に問題が起きました。日本語の会話スキルだけでプログラムを開始します。\n世界さん、こんにちは';
-        break;
+        return '漢字のダウンロード中に問題が起きました。日本語の会話スキルだけでプログラムを開始します。\n世界さん、こんにちは';
       case 'Korean':
-        greeting = '한국어 패치 완료\n세상아, 안녕';
-        break;
+        return '한국어 패치 완료\n세상아, 안녕';
       default:
-        greeting = "A foo walks into a bar, takes a look around and says, 'Hello World!'";
-        break;
+        return 'A foo walks into a bar, takes a look around and says, "Hello World!"';
     }
-
-    return greeting;
   }
 }
 ```
